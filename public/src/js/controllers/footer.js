@@ -29,6 +29,9 @@ angular.module('insight.system').controller('FooterController',
     }, {
       name: 'Українська',
       isoCode: 'ua',
+    }, {
+      name: 'Русский',
+      isoCode: 'ru',
     }];
 
     $scope.setLanguage = function(isoCode) {
