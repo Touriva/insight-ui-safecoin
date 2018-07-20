@@ -246,10 +246,10 @@ margin-left: 0;
 .col-gray {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  background-color: #F4F4F4;
+  background-color: #eaf5f9;
   border-radius: 5px;
   padding: 14px;
-  border: 1px solid #eee;
+  border: 1px solid #97ddf7;
 }
 
 .col-gray-responsive {
@@ -317,12 +317,12 @@ margin-left: 0;
 .block-tx {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-  background-color: #F4F4F4;
+  background-color: #eaf5f9;
   border-radius: 2px;
   margin: 20px 0 10px;
   overflow: hidden;
   padding: 15px;
-  border: 1px solid #eee;
+  border: 1px solid #97ddf7;
 }
 
 .btn {
