@@ -24,10 +24,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* Styling for the ngProgress itself */
 #ngProgress {
-  background-color: #6C9032 !important;
+  background-color: #0e84ab !important;
   box-shadow: none !important;
   color: #373D42 !important;
-  height: 3px !important;
+  height: 4px !important;
   margin: 0;
   opacity: 0;
   padding: 0;
@@ -115,21 +115,22 @@ margin-left: 0;
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #373D42;}
 
 .navbar-default {
-  background-color: #ccded5;
+  background-color: #00698c;
   margin: 0;
   border: 0;
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #346464;
+  color: white;
+  font-weight: bold;
   font-family: 'Ubuntu', sans-serif;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
-  background-color: #ccded5;
-  color: #346464;
+  background-color: #00698c;
+  color: #0c7ba0;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a:hover {
@@ -175,7 +176,7 @@ margin-left: 0;
 }
 
 .navbar-form .form-control {
-  background-color: #bdc7c2;
+  background-color: white;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -207,7 +208,10 @@ margin-left: 0;
   margin-left: 5px;
 }
 
-#search { color: #fff; }
+#search { 
+	color: #00698c; 
+    font-weight: bold;
+}
 
 #search::-webkit-input-placeholder {
   color: #a7a7a7;
@@ -225,7 +229,7 @@ margin-left: 0;
 .status {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  background-color: #346464;
+  background-color: #0c7ba0;
   border-radius: 3px;
   margin: 15px 0;
   padding: 8px 10px;
@@ -242,10 +246,10 @@ margin-left: 0;
 .col-gray {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  background-color: #F4F4F4;
+  background-color: #eaf5f9;
   border-radius: 5px;
   padding: 14px;
-  border: 1px solid #eee;
+  border: 1px solid #97ddf7;
 }
 
 .col-gray-responsive {
@@ -278,7 +282,7 @@ margin-left: 0;
 }
 
 .block-id {
-  background-color: #373D42;
+  background-color: #0c7ba0;
   border: 3px solid #FFFFFF;
   margin: 0 auto;
   width: 165px;
@@ -313,20 +317,21 @@ margin-left: 0;
 .block-tx {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-  background-color: #F4F4F4;
+  background-color: #eaf5f9;
   border-radius: 2px;
   margin: 20px 0 10px;
   overflow: hidden;
   padding: 15px;
-  border: 1px solid #eee;
+  border: 1px solid #97ddf7;
 }
 
 .btn {
   border-radius: 2px;
 }
 .btn-primary {
-  background-color: #8DC429;
-  border: 2px solid #76AF0F;
+	font-weight: bold;
+  background-color: #428bca;
+  border: 2px solid #357ebd;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active,
@@ -395,11 +400,14 @@ margin-left: 0;
   font-size: 14px;
   font-weight: normal;
 }
-.progress-bar-info { background-color: #8DC429; }
+.progress-bar-info { 
+	background-color: #0c7ba0;
+	font-weight: bold;	
+}
 
 /* Set the fixed height of the footer here */
 #footer {
-  background-color: #373D42;
+  background-color: #00698C;
   color: #fff;
   height: 51px;
   overflow: hidden;
@@ -862,7 +870,7 @@ a.v_highlight_more {
 /* Safecoin Explorer Misc CSS
 -------------------------------------------------- */
 #brandImg {
-  height: 45px;
+  height: 40px;
 }
 
 #brandImgLg {
