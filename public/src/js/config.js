@@ -4,7 +4,7 @@ angular.module('insight')
 .constant('Constants', {
 
 	CURRENCY: {
-		ZEL : 'SAFE',
+		SAFE : 'SAFE',
 		USD : 'USD',
 		BTC : 'BTC'
 	},
