@@ -14,8 +14,8 @@ To manually install all of the necessary components, you can run these commands:
 npm install -g bitcore-node
 bitcore-node create mynode
 cd mynode
-bitcore-node install insight-api
-bitcore-node install insight-ui
+bitcore-node install git://github.com/Fair-Exchange/insight-api-safecoin.git
+bitcore-node install git://github.com/Fair-Exchange/insight-ui-safecoin.git
 bitcore-node start
 ```
 
