@@ -11,11 +11,11 @@ Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g bitcore-node
+npm install -g git://github.com/Fair-Exchange/bitcore-node-safecoin.git
 bitcore-node create mynode
 cd mynode
-bitcore-node install insight-api
-bitcore-node install insight-ui
+bitcore-node install git://github.com/Fair-Exchange/insight-api-safecoin.git
+bitcore-node install git://github.com/Fair-Exchange/insight-ui-safecoin.git
 bitcore-node start
 ```
 
