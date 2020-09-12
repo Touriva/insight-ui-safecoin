@@ -1,6 +1,6 @@
 # Insight UI
 
-A Bitcoin blockchain explorer web application service for [Bitcore Node](https://github.com/bitpay/bitcore-node) using the [Insight API](https://github.com/Fair-Exchange/insight-api-safecoin).
+A Bitcoin blockchain explorer web application service for [Bitcore Node](https://github.com/bitpay/bitcore-node) using the [Insight API](https://github.com/Touriva/insight-api-touriva).
 
 ## Quick Start
 
@@ -11,11 +11,11 @@ Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g git://github.com/Fair-Exchange/bitcore-node-safecoin.git
+npm install -g git://github.com/Touriva/bitcore-node-touriva.git
 bitcore-node create mynode
 cd mynode
-bitcore-node install git://github.com/Fair-Exchange/insight-api-safecoin.git
-bitcore-node install git://github.com/Fair-Exchange/insight-ui-safecoin.git
+bitcore-node install git://github.com/Touriva/insight-api-touriva.git
+bitcore-node install git://github.com/Touriva/insight-ui-touriva.git
 bitcore-node start
 ```
 
@@ -70,11 +70,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/Fair-Exchange/insight-api-safecoin) configuration and end-points, go to [Insight API GitHub repository](https://github.com/Fair-Exchange/insight-api-safecoin).
+For more details about the [Insight API](https://github.com/Touriva/insight-api-touriva) configuration and end-points, go to [Insight API GitHub repository](https://github.com/Touriva/insight-api-touriva).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/Fair-Exchange/insight-ui-safecoin).
+Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/Touriva/insight-ui-touriva).
 
 
 ## License
