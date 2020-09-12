@@ -23,18 +23,18 @@ msgstr "404 Seite nicht gefunden :("
 #: public/views/index.html
 msgid ""
 "<strong>insight</strong>  is an <a href=\"http://live.insight.is/\" target="
-"\"_blank\">open-source Safecoin blockchain explorer</a> with complete REST "
+"\"_blank\">open-source touriva blockchain explorer</a> with complete REST "
 "and websocket APIs that can be used for writing web wallets and other apps  "
-"that need more advanced blockchain queries than provided by safecoind RPC.  "
-"Check out the <a href=\"https://github.com/Fair-Exchange/insight-ui-safecoin\" target=\"_blank"
+"that need more advanced blockchain queries than provided by tourivad RPC.  "
+"Check out the <a href=\"https://github.com/Touriva/insight-ui-touriva\" target=\"_blank"
 "\">source code</a>."
 msgstr ""
 "<strong>insight</strong> ist ein <a href=\"http://live.insight.is/\" target="
-"\"_blank\">Open Source Safecoin Blockchain Explorer</a> mit vollständigen "
+"\"_blank\">Open Source Touriva Blockchain Explorer</a> mit vollständigen "
 "REST und Websocket APIs um eigene Wallets oder Applikationen zu "
 "implementieren. Hierbei werden fortschrittlichere Abfragen der Blockchain "
-"ermöglicht, bei denen die RPC des Safecoind nicht mehr ausreichen. Der "
-"aktuelle <a href=\"https://github.com/Fair-Exchange/insight-ui-safecoin\" target=\"_blank"
+"ermöglicht, bei denen die RPC des Tourivad nicht mehr ausreichen. Der "
+"aktuelle <a href=\"https://github.com/Touriva/insight-ui-touriva\" target=\"_blank"
 "\">Quellcode</a> ist auf Github zu finden."
 
 #: public/views/index.html
@@ -45,7 +45,7 @@ msgid ""
 msgstr ""
 "<strong>insight</strong> befindet sich aktuell noch in der Entwicklung. "
 "Bitte sende alle gefundenen Fehler (Bugs) und Feedback zur weiteren "
-"Verbesserung an unseren <a href=\"https://github.com/Fair-Exchange/insight-ui-safecoin/issues"
+"Verbesserung an unseren <a href=\"https://github.com/Touriva/insight-ui-touriva/issues"
 "\" target=\"_blank\">Github Issue Tracker</a>."
 
 #: public/views/index.html
@@ -69,8 +69,8 @@ msgid "Best Block"
 msgstr "Bester Block"
 
 #: public/views/status.html
-msgid "Safecoin node information"
-msgstr "Safecoin-Node Info"
+msgid "Touriva node information"
+msgstr "Touriva-Node Info"
 
 #: public/views/block.html
 msgid "Block"
@@ -91,11 +91,11 @@ msgstr "Serialisierte Bytes"
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to safecoind to get live updates from the p2p network. (Tried "
-"connecting to safecoind at {{host}}:{{port}} and failed.)"
+"Can't connect to tourivad to get live updates from the p2p network. (Tried "
+"connecting to tourivad at {{host}}:{{port}} and failed.)"
 msgstr ""
-"Es ist nicht möglich mit Safecoind zu verbinden um live Aktualisierungen vom "
-"P2P Netzwerk zu erhalten. (Verbindungsversuch zu safecoind an {{host}}:"
+"Es ist nicht möglich mit Tourivad zu verbinden um live Aktualisierungen vom "
+"P2P Netzwerk zu erhalten. (Verbindungsversuch zu tourivad an {{host}}:"
 "{{port}} ist fehlgeschlagen.)"
 
 #: public/views/includes/connection.html
@@ -199,8 +199,8 @@ msgid "Last Block"
 msgstr "Letzter Block"
 
 #: public/views/status.html
-msgid "Last Block Hash (Safecoind)"
-msgstr "Letzter Hash (Safecoind)"
+msgid "Last Block Hash (Tourivad)"
+msgstr "Letzter Hash (Tourivad)"
 
 #: public/views/index.html
 msgid "Latest Blocks"

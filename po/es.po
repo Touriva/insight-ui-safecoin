@@ -23,16 +23,16 @@ msgstr "404 Página no encontrada :("
 #: public/views/index.html
 msgid ""
 "<strong>insight</strong>  is an <a href=\"http://live.insight.is/\" target="
-"\"_blank\">open-source Safecoin blockchain explorer</a> with complete REST "
+"\"_blank\">open-source Touriva blockchain explorer</a> with complete REST "
 "and websocket APIs that can be used for writing web wallets and other apps  "
-"that need more advanced blockchain queries than provided by safecoind RPC.  "
-"Check out the <a href=\"https://github.com/Fair-Exchange/insight-ui-safecoin\" target=\"_blank"
+"that need more advanced blockchain queries than provided by tourivad RPC.  "
+"Check out the <a href=\"https://github.com/Touriva/insight-ui-touriva\" target=\"_blank"
 "\">source code</a>."
 msgstr ""
 "<strong>insight</strong>  es un <a href=\"http://live.insight.is/\" target="
-"\"_blank\">explorador de bloques de Safecoin open-source</a> con un completo "
+"\"_blank\">explorador de bloques de Touriva open-source</a> con un completo "
 "conjunto de REST y APIs de websockets que pueden ser usadas para escribir "
-"monederos de Safecoins y otras aplicaciones que requieran consultar un "
+"monederos de Tourivas y otras aplicaciones que requieran consultar un "
 "explorador de bloques.  Obtén el código en <a href=\"http://github.com/"
 "bitpay/insight\" target=\"_blank\">el repositorio abierto de Github</a>."
 
@@ -44,7 +44,7 @@ msgid ""
 msgstr ""
 "<strong>insight</strong> esta en desarrollo aún, por ello agradecemos que "
 "nos reporten errores o sugerencias para mejorar el software. <a href="
-"\"https://github.com/Fair-Exchange/insight-ui-safecoin/issues\" target=\"_blank\">Github issue "
+"\"https://github.com/Touriva/insight-ui-touriva/issues\" target=\"_blank\">Github issue "
 "tracker</a>."
 
 #: public/views/index.html
@@ -68,8 +68,8 @@ msgid "Best Block"
 msgstr "Mejor Bloque"
 
 #: public/views/status.html
-msgid "Safecoin node information"
-msgstr "Información del nodo Safecoin"
+msgid "Touriva node information"
+msgstr "Información del nodo Touriva"
 
 #: public/views/block.html
 msgid "Block"
@@ -90,11 +90,11 @@ msgstr "Bytes Serializados"
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to safecoind to get live updates from the p2p network. (Tried "
-"connecting to safecoind at {{host}}:{{port}} and failed.)"
+"Can't connect to tourivad to get live updates from the p2p network. (Tried "
+"connecting to tourivad at {{host}}:{{port}} and failed.)"
 msgstr ""
-"No se pudo conectar a safecoind para obtener actualizaciones en vivo de la "
-"red p2p. (Se intentó conectar a safecoind de {{host}}:{{port}} y falló.)"
+"No se pudo conectar a tourivad para obtener actualizaciones en vivo de la "
+"red p2p. (Se intentó conectar a tourivad de {{host}}:{{port}} y falló.)"
 
 #: public/views/includes/connection.html
 msgid "Can't connect to insight server. Attempting to reconnect..."
@@ -195,8 +195,8 @@ msgid "Last Block"
 msgstr "Último Bloque"
 
 #: public/views/status.html
-msgid "Last Block Hash (Safecoind)"
-msgstr "Último Bloque Hash (Safecoind)"
+msgid "Last Block Hash (Tourivad)"
+msgstr "Último Bloque Hash (Tourivad)"
 
 #: public/views/index.html
 msgid "Latest Blocks"

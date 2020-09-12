@@ -23,13 +23,13 @@ msgstr "404 Сторінка відсутня :("
 #: public/views/index.html
 msgid ""
 "<strong>insight</strong>  is an <a href=\"http://live.insight.is/\" target=\"_blank\">open-"
-"source Safecoin blockchain explorer</a> with complete REST and websocket APIs that can be "
+"source Touriva blockchain explorer</a> with complete REST and websocket APIs that can be "
 "used for writing web wallets and other apps  that need more advanced blockchain queries than "
-"provided by safecoind RPC.  Check out the <a href=\"https://github.com/Fair-Exchange/insight-"
+"provided by safecoind RPC.  Check out the <a href=\"https://github.com/Touriva/insight-"
 "ui-safecoin\" target=\"_blank\">source code</a>."
 msgstr ""
 "<strong>insight</strong>  це <a href=\"http://live.insight.is/\" target=\"_blank\">провідник "
-"блокчейну Safecoin з відкритим початковим кодом</a> із повним набором REST та API веб-"
+"блокчейну Touriva з відкритим початковим кодом</a> із повним набором REST та API веб-"
 "сторінок, які можна використовувати для написання веб-гаманців та інших додатків, для "
 "якіпотребують більш складних запитів до блокчейну, крім випадків, передбачених Safecoind "
 "RPC.  Перевірте початковий код <a href=\"http://github.com/bitpay/insight\" target=\"_blank"
@@ -66,8 +66,8 @@ msgid "Best Block"
 msgstr "Кращий блок"
 
 #: public/views/status.html
-msgid "Safecoin node information"
-msgstr "Інформацыя про вузол Safecoin"
+msgid "Touriva node information"
+msgstr "Інформацыя про вузол Touriva"
 
 #: public/views/block.html
 msgid "Block"
